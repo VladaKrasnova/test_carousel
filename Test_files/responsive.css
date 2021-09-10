@@ -1,0 +1,251 @@
+/*xl*/
+@media (min-width: 1200px){
+	.cpt-stories-fixblock .cpt-stories-close-button {
+		opacity: 0;
+    	transition: opacity .5s;
+	}
+	.cpt-stories-fixblock:hover .cpt-stories-close-button{
+	    opacity: .5;
+	    transition: opacity .01s;
+	}
+	.cpt-stories-fixblock .cpt-stories-close-button:hover{
+	    opacity: 1;
+	    transition: opacity .3s;
+	}
+	.cpt-stories-block .swiper-slide:hover{
+		transform: translateY(-10px);
+	}
+	.cpt-stories-fixblock .cpt-stories-arrows{
+		opacity: 0;
+		transition: opacity .4s;
+	}
+	.cpt-stories-fixblock:hover .cpt-stories-arrows{
+		opacity: 1;
+	}
+}
+/*lg*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+/*md*/
+@media (min-width: 768px) and (max-width: 991px){
+	.cpt-stories-block .swiper-slide {
+	    width: 120px !important;
+	}
+	.cpt-stories-block .cpt-stories-preview-slide{
+		width: 120px;
+    	height: 120px;
+	}
+}
+/*sm & xs*/
+@media (max-width: 767.98px){
+	.cpt-stories-block .swiper-slide {
+	    width: 77px !important;
+	}
+	.cpt-stories-block .cpt-stories-preview-slide{
+	    width: 77px;
+	    height: 77px;
+	}
+	.cpt-stories-header .cpt-stories-wr-arrows{
+		display: none;
+	}
+	.cpt-stories-block .swiper-pagination{
+		display: block;
+		position: static;
+		margin-top: 10px;
+		width: 200px !important;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.cpt-stories-block  .swiper-pagination-bullet-active{
+		opacity: 1;
+		background-color: #717171;
+	}
+	.cpt-stories-block .cpt-stories-text{
+	    font-size: 12px;
+	    line-height: 15px;
+	}
+	.cpt-stories-modal .cpt-stories-close-button,
+	.cpt-stories-modal .cpt-stories-pause-button{
+		opacity: 1;
+	}
+	.cpt-stories-block .cpt-stories-title{
+	    font-size: 25px;
+	    line-height: 35px;
+	    text-align: center;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-bottom{
+	    left: 0;
+	    right: 0;
+	    top: auto;
+        transform: translateX(0%);
+        border-radius: 0;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-bottom .cpt-stories-close-button {
+	    top: -45px;
+	    right: 20px;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-bottom{
+		bottom: -140px;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left,
+	.cpt-stories-fixblock.cpt-stories-side-right{
+	    left: 0;
+		right: 0;
+		top: auto;
+		transform: translateX(0%);
+		bottom: -140px;
+		height: 90px;
+		width: 100%;
+		border-radius: 0;
+		padding: 10px;
+		transition: bottom .4s;
+	}
+	.cpt-stories-fixblock.isset-album-img.cpt-stories-side-left,
+	.cpt-stories-fixblock.isset-album-img.cpt-stories-side-right{
+		padding-left: 110px;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left.cpt-stories-show,
+	.cpt-stories-fixblock.cpt-stories-side-right.cpt-stories-show{
+		bottom: 0;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-fixblock-img,
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-fixblock-img{
+	    position: absolute;
+	    left: 10px;
+	    margin-bottom: 0;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-close-button, 
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-close-button{
+	    top: -45px;
+	    right: 20px;
+	    left: auto;
+	    margin-left: 0;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-arrows,
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-arrows{
+	    left: 0;
+    	right: 0;
+    	top: 0;
+    	bottom: auto;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-arrows .swiper-button-prev,
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-arrows .swiper-button-prev,
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-arrows .swiper-button-next,
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-arrows .swiper-button-next{
+		top: 0 !important;
+	    bottom: auto;
+	    background-size: 15px;
+	    width: 32px;
+	    height: 60px;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-arrows .swiper-button-prev,
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-arrows .swiper-button-prev{
+	    left: -11px;
+	    right: auto;
+        
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-arrows .swiper-button-next,
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-arrows .swiper-button-next{
+	    right: 6px;
+	    left: auto;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left.cpt-stories-mode-light .cpt-stories-arrows .swiper-button-next,
+	.cpt-stories-fixblock.cpt-stories-side-right.cpt-stories-mode-light .cpt-stories-arrows .swiper-button-next{
+	    background-image: url('../images/svg/shevron_r_bl.svg');
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left.cpt-stories-mode-dark .cpt-stories-arrows .swiper-button-next,
+	.cpt-stories-fixblock.cpt-stories-side-right.cpt-stories-mode-dark .cpt-stories-arrows .swiper-button-next{
+	    background-image: url('../images/svg/shevron_r_wt.svg');
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left.cpt-stories-mode-light .cpt-stories-arrows .swiper-button-prev,
+	.cpt-stories-fixblock.cpt-stories-side-right.cpt-stories-mode-light .cpt-stories-arrows .swiper-button-prev{
+	    background-image: url('../images/svg/shevron_l_bl.svg');
+	}
+	.cpt-stories-fixblock.cpt-stories-side-left.cpt-stories-mode-dark .cpt-stories-arrows .swiper-button-prev,
+	.cpt-stories-fixblock.cpt-stories-side-right.cpt-stories-mode-dark .cpt-stories-arrows .swiper-button-prev{
+	    background-image: url('../images/svg/shevron_l_wt.svg');
+	}
+
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-arrows .cpt-stories-bg-shadow-arrow,
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-arrows .cpt-stories-bg-shadow-arrow{
+	    width: 38px;
+	    height: 80px;
+	    position: absolute;
+	    top: -10px;
+	    bottom: -10px;
+	    left: auto;
+	    right: auto;
+	    background-repeat: repeat-y;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-next,
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-next{
+		right: -1px;
+		left: auto !important;
+		background-position: right top;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-right .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-prev,
+	.cpt-stories-fixblock.cpt-stories-side-left .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-prev{
+	    left: -1px;
+	    right: auto !important;
+	    background-position: left top;
+	}
+	.cpt-stories-fixblock.cpt-stories-side-right.cpt-stories-mode-light .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-next,
+	.cpt-stories-fixblock.cpt-stories-side-left.cpt-stories-mode-light .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-next{
+	    background-image: url(../images/png/rw.png);
+	}
+	.cpt-stories-fixblock.cpt-stories-side-right.cpt-stories-mode-dark .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-next,
+	.cpt-stories-fixblock.cpt-stories-side-left.cpt-stories-mode-dark .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-next{
+	    background-image: url(../images/png/gl.png);
+	}
+	.cpt-stories-fixblock.cpt-stories-side-right.cpt-stories-mode-light .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-prev,
+	.cpt-stories-fixblock.cpt-stories-side-left.cpt-stories-mode-light .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-prev{
+	    background-image: url(../images/png/lw.png);
+	}
+	.cpt-stories-fixblock.cpt-stories-side-right.cpt-stories-mode-dark .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-prev,
+	.cpt-stories-fixblock.cpt-stories-side-left.cpt-stories-mode-dark .cpt-stories-arrows .cpt-stories-bg-shadow-arrow-prev{
+	    background-image: url(../images/png/gr.png);
+	}
+
+
+
+	.js-cpt-stories-ajax-public-admin{
+		display: none;
+	}
+	.cpt-stories-window-shadow,
+	.cpt-stories-frame {
+	    border-radius: 0;
+	}
+	.cpt-stories-frame-btn{
+		display: block;
+	}
+
+	.cpt-stories-fixblock.cpt-stories-hide-img-xs.isset-album-img .cpt-stories-fixblock-img{
+		display: none;
+	}
+	.cpt-stories-fixblock.cpt-stories-hide-img-xs.isset-album-img{
+		padding-left: 15px !important;
+	}
+
+	.cpt-stories-modal{
+	    height: 100%;
+	}
+}
+
+
+/*sm*/
+@media (min-width: 576px) and (max-width: 767.98px){
+	.cpt-stories-def-btn{
+		display: block;
+	}
+	.cpt-stories-admin-btn-settings,
+	.cpt-stories-admin-public-btn{
+		display: none;
+	}
+
+}
+/*xs*/
+@media (max-width: 575.98px){
+	
+}
+
